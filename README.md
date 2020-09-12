@@ -1,5 +1,7 @@
 # ide-container-platformio
 
+A Container image for microcontroller development.
+
 A Containerfile that builds container with VS Code and PlatformIO IDE extension. Running it in a container should prevent potential interferences with your normal VS Code configuration.
 
 # Usage
@@ -31,4 +33,4 @@ podman start -i platformio
 
 ![open platformio ide window](https://i.imgur.com/Xy7cSNq.png)
 
-
+![show the recognized microcontroller on the IDE window](https://i.imgur.com/jtjdi6L.png)
